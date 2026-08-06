@@ -208,6 +208,19 @@
   }
   .access-card h2 { margin-top: 6px; margin-bottom: 12px; font-size: 1.3rem; }
   .access-card p { color: var(--ink-soft); max-width: 560px; margin-bottom: 26px; }
+  .resource-links {
+    font-size: 0.88rem;
+    color: var(--ink-soft);
+  }
+  .resource-links a {
+    color: var(--accent);
+    font-weight: 500;
+  }
+  .resource-links a:hover { text-decoration: underline; }
+  .resource-divider {
+    margin: 0 10px;
+    color: var(--border);
+  }
 
   footer {
     max-width: 1080px;
@@ -285,7 +298,14 @@
     <div class="note">Currently running in my own database course, and used across three semesters so far.</div>
     <h2>Bring it to your course</h2>
     <p>Fill out a short request form so I know who is using it, wherever you're teaching, and I will send over access.</p>
-    <a href="https://forms.gle/nj39KhogQTL95MXP9" class="btn btn-primary" target="_blank" rel="noopener">Request access</a>
+    <div class="cta-row" style="margin-bottom: 22px;">
+      <a href="https://forms.gle/nj39KhogQTL95MXP9" class="btn btn-primary" target="_blank" rel="noopener">Request access</a>
+    </div>
+    <div class="resource-links">
+      <a href="instructor-guide.pdf" target="_blank" rel="noopener">Instructor guide (PDF)</a>
+      <span class="resource-divider">&middot;</span>
+      <a href="student-briefing.pdf" target="_blank" rel="noopener">Student briefing (PDF)</a>
+    </div>
   </div>
 </section>
 
